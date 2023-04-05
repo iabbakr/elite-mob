@@ -5,10 +5,51 @@
 header{
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 100%vw;
     height: auto;
-    border: 2px solid black
+    padding: 0.5em 1em;
+    justify-content: space-around;
+    border-bottom: 1px solid purple;
+}
+.header-nav{
+    margin-right: 1.25em;
+
+}
+.header-search{
+    
+
+}
+.header-logo{
+    margin: 0 auto;
+    width: 108px;
+    height: auto;
+
+}
+.header-user{
+    
+    
+
+
+}
+.header-cart{
+    margin-left: 1.25em;
+    
+    
+
 }
 .logo-img{
+    width: 100%;
+    height: auto;
     
+
+}
+.header-row{
+    padding-top: 15px;
+}
+
+main{
+    height: auto;
+    width: 100%;
+    background-image: url(/images/Mockups/Desktop\ wallpaper.jpg);
+    background-size: cover;
 }
