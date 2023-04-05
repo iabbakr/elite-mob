@@ -1,0 +1,14 @@
+*, ::before, ::after{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    border: 2px solid black
+}
+.logo-img{
+    
+}
