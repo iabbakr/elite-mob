@@ -53,3 +53,11 @@ main{
     background-image: url(/images/Mockups/Desktop\ wallpaper.jpg);
     background-size: cover;
 }
+.hero{
+    width: 100%;
+    height: ;
+}
+footer {
+    text-align: center;
+    color: #5f29a3;
+}
