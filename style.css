@@ -30,12 +30,17 @@ header{
     padding-top: 15px;
 }
 .grid-container{
+
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    grid-auto-rows: 50px;
 }
 .grid-items{
     border: 1px solid purple;
+}
+
+.products{
+    width: 80%;
+    height: 200px;
 }
 
 
