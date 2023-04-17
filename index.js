@@ -1,5 +1,5 @@
 document.addEventListener('click' function(e){
-    return navHtml1(e.target.dataset.nav);
+    navHtml1(e.target.da);
     
 
 });
@@ -17,6 +17,6 @@ function navHtml(){
             <div class="aside-nav">phones</div>
     `;
 
-    document.getElementById('navigation').innerHTML = navHtml1;
+    document.getElementById('navigation').innerHTML += navHtml1;
 
 };

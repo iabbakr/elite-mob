@@ -3,8 +3,10 @@
     box-sizing: border-box;
 }
 body{
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    height: auto;
+    min-height: 100vh;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -52,25 +54,92 @@ main{
 .hero{
     background-color: rgb(241, 241, 241);
     width: 100%;
-    height: auto;
-    padding: 30px 0;
+    height: 250px;
+    padding: 30px 10px;
     text-align: center;
+    display: inline-block;
 }
 
-.grid-container{
-    display: grid;
-    grid-template-columns: repeat(autofill, 1fr);
+.search-bar{
+    margin-top: 50px;
+    color: black;
+    background-color: white;
+    width: 75%;
+    height:70px;
+    padding: 8px 12px;
+    padding-left: 20px;
+    border:none;
+    outline: none;
+    font-size: 18px;
+    margin-right: 0;
 }
+button{
+    border:2px solid grey ;
+    width: 10%;
+    height: 70px;
+    background-color:white;
+    margin-left: 0;
+}
+
+
 
 
 
 
 footer {
-    background-color: rgb(216, 46, 46);
+    background-color: rgb(210, 62, 62);
     width: 100%;
-    height: 200px;
+    height: 100px;
     padding-top: 20px;
     text-align: center;
-    color: white;
-    margin-bottom: 0;
+    color: black;
+    margin-top: auto;
+}
+.footer-p{
+    color: whitesmoke;
+}
+
+
+.section-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 
+
+}
+.title{
+    text-align: center;
+    grid-column: 1/-1;
+
+
+}
+.grid-info{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid  rgb(241, 241, 241);
+    padding-bottom: 8px;
+
+}
+.grid-imgs{
+    width: 100%;
+    height:200px;
+    display: block;
+}
+span{
+    color: grey;
+
+}
+h4{
+    margin: 12px 0 8px;
+}
+p{
+    margin: 0;
+    color:#505050;
+    text-align: center;
+
+
+}
+
+.emoji{
+    margin: 20px auto;
+    font-size: 5em;
 }

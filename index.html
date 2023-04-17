@@ -8,7 +8,7 @@
 <body>
     <header>
         <div class="header-nav header-row">
-            <i class="fa-solid fa-bars fa-2xl"></i>
+            <i class="fa-solid fa-bars fa-2xl " onclick="navi()" ></i>
         </div>
         <div class="header-search header-row">
             <i class="fa-solid fa-search fa-2xl"></i>
@@ -29,26 +29,54 @@
 
     <main>
         <div class="hero">
-            <h1>Home of techies</h1>
+            <input type="text" placeholder="We got you!" class="search-bar">
+            <button type="submit"><i class="fa fa-search fa-2xl" id="search-btn"></i></button>
         </div>
-        <aside class="navigation">
+        <aside id="navigation">
             
 
         </aside>
         <section class="grid-container">
-            <button class="product-btn btn-1" id="computers">Computers</button>
-            <button class="product-btn btn-2" id="phones">Phones</button>
-            <button class="product-btn btn-3" id="robotics">Robotics</button>
-            <button class="product-btn btn-4" id="accessories">Accessories</button>
-            
+            <div class="section section-grid">
+                
+                <div class="grid-info">
+                    <span class="emoji"> 💻</span>
+                    <p>Computers</p>
+                </div>
+                <div class="grid-info">
+                    <span class="emoji">📱</span>
+                    <p>Mobile Phones</p>
+                </div>
+                <div class="grid-info">
+                    <span class="emoji">🕹</span>
+                    <p>Gaming Consoles</p>
+                </div>
+                <div class="grid-info">
+                    <span class="emoji">🖨</span>
+                    <p>Printers</p>
+                </div>
+                <div class="grid-info">
+                    <span class="emoji">🤖</span>
+                    <p>Robotics</p>
+                </div>
+                <div class="grid-info">
+                    <span class="emoji"> 🛋</span>
+                    <p>Office Furnitures</p>
+                </div>
+                <div class="grid-info">
+                    <span class="emoji">🛍️</span>
+                    <p>Accessories</p>
+                </div>
+
+                    
         </section>
 
         <footer>
-			<p>&copy; 2023 Elitehub.com</p>
+			<p class="footer-p">&copy; 2023 Elitehub.com</p>
 		</footer>
     </main>
 
-    <script src="./index.js>" type="module"></script>
+    <script src="/index.js"></script>
    
 </body>
 </html>
