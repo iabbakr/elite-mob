@@ -3,10 +3,14 @@
     box-sizing: border-box;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+body{
+    width: 100%;
+    height: auto;
+}
 header{
     display: flex;
     flex-direction: row;
-    width: 100%vw;
+    width: 100%;
     height: auto;
     padding: 0.5em 1em;
     border-bottom: 1px solid purple;
@@ -30,34 +34,20 @@ header{
 .header-row{
     padding-top: 15px;
 }
-.grid-container{
 
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-}
-.grid-items{
-    border: 1px solid purple;
-}
-
-.products{
-    width: 50%;
+main{
+    width: auto;
     height: auto;
-    border: 1px solid red;
-    object-fit: cover;
 }
 
-.images{
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-
-}
 
 
 .hero{
     background-color: rgb(209, 202, 202);
-    width: 100%;
+    width: auto;
     height: 100px;
+    padding: 40px 65px;
+    text-align: center;
 }
 
 
