@@ -111,6 +111,7 @@ footer {
     flex-direction: column;
     border: 2px solid  rgb(241, 241, 241);
     padding-bottom: 8px;
+}
 span{
     color: grey;
 }
